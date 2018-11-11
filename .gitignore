@@ -63,3 +63,4 @@ typings/
 .md
 gulpfile.js
 package.json
+.vscode/
