@@ -13,28 +13,25 @@ header .welcome {
   header .welcome div i {
     font-size: 128px; }
 
-header .fa-arrow-right {
-  font-size: 128px; }
-
 header .people-item {
   font-size: 50px; }
 
 header .nav {
+  height: 50px;
   background: rgba(2, 157, 175, 0.3);
   padding: 5px; }
-
-header .nav-item a {
-  color: black;
-  font-size: 18px; }
-
-header .nav-item .fab {
-  font-size: 32px; }
+  header .nav .nav-item a {
+    color: black;
+    font-size: 18px; }
+  header .nav .nav-item .fab {
+    font-size: 32px; }
 
 main h4 {
   color: #029daf; }
 
 main .about {
-  height: 400px; }
+  height: 400px;
+  margin-top: 100px; }
   main .about .text {
     margin-top: 100px;
     text-align: justify; }
@@ -125,6 +122,80 @@ footer div {
     margin-bottom: 25px; }
   .hospital-philosophy .hospital-philosophy-text p {
     text-align: justify; }
+    .hospital-philosophy .hospital-philosophy-text p .quote {
+      font-size: 22px;
+      color: #029daf; }
   .hospital-philosophy .hospital-philosophy-text li {
     text-align: justify;
     padding: 5px; }
+
+.build {
+  margin-top: 150px; }
+  .build .text p i {
+    font-size: 80px; }
+
+.what {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+  .what .text .quote {
+    font-size: 24px; }
+
+.team {
+  margin-bottom: 50px; }
+  .team h4 {
+    color: gray;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px; }
+
+.team-about-section {
+  margin-top: 50px; }
+  .team-about-section .team-about-img img {
+    height: 300px; }
+  .team-about-section .team-about-text {
+    margin-top: 50px;
+    text-align: justify; }
+
+.team-employees .team-employees-bck {
+  background: #029daf; }
+
+.team-employees .team-employees-content .team-employees-content-img div {
+  padding: 20px;
+  display: inline-block; }
+  .team-employees .team-employees-content .team-employees-content-img div img {
+    height: 200px;
+    width: 200px; }
+  .team-employees .team-employees-content .team-employees-content-img div p {
+    font-size: 18px;
+    padding: 5px;
+    text-align: justify; }
+    .team-employees .team-employees-content .team-employees-content-img div p span {
+      font-size: 16px;
+      text-transform: uppercase; }
+
+.team-volunteers div img {
+  height: 200px;
+  width: 200px; }
+
+.team-volunteers .team-volunteers-bck {
+  background: #FFC219; }
+
+.team-volunteers .team-volunteers-content .team-volunteers-text {
+  text-align: justify;
+  margin-bottom: 50px; }
+
+.team-president {
+  margin-bottom: 50px; }
+  .team-president img {
+    height: 300px;
+    width: 230px; }
+  .team-president .team-president-text {
+    text-align: justify; }
+    .team-president .team-president-text .team-president-text-subtitle {
+      font-size: 16px;
+      text-transform: uppercase; }
+    .team-president .team-president-text .name {
+      font-size: 22px;
+      font-weight: 700; }
+  .team-president .team-president-bck {
+    background: #e32551; }
