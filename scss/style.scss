@@ -1,0 +1,238 @@
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+  margin-top: 30px
+}
+
+header {
+
+  .welcome {
+    div {
+      .title {
+        font-size: 30px;
+      }
+
+      i {
+        font-size: 128px;
+      }
+    }
+
+    margin-top: 30px;
+    height: 15rem;
+    background: #FFC219
+  }
+
+  .fa-arrow-right {
+    font-size: 128px;
+  }
+
+  .people-item {
+    font-size: 50px;
+  }
+
+  .nav {
+    background: rgba(2, 157, 175, 0.3);
+    padding: 5px;
+
+  }
+
+  .nav-item {
+    a {
+      color: black;
+      font-size: 18px
+    }
+
+    .fab {
+      font-size: 32px;
+    }
+  }
+
+}
+
+
+
+
+main {
+  h4 {
+    color: rgba(2, 157, 175, 1)
+  }
+
+  .about {
+    height: 400px;
+
+    .text {
+      margin-top: 100px;
+      text-align: justify;
+    }
+  }
+
+  .activities {
+    img {
+      height: 15em;
+      width: 15em;
+    }
+
+    div {
+      h6 {
+        font-size: 24px;
+        margin-top: 20px;
+      }
+
+      a {
+        color: rgba(240, 124, 25, 0.7)
+      }
+    }
+
+    margin-bottom: 150px;
+  }
+
+  .how {
+    margin-top: 50px;
+
+    div {
+      margin-top: 50px;
+      margin-bottom: 100px;
+
+      img {
+        height: 250px;
+        width: auto;
+      }
+    }
+
+    margin-bottom: 100px;
+  }
+
+  .slider {
+    h4 {
+      font-size: 32px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .gallery-bck {
+      background: rgba(2, 157, 175, 0.5)
+    }
+
+    margin-bottom: 30px;
+  }
+}
+
+footer {
+  div {
+    .fundacja {
+      font-weight: 700;
+    }
+
+    p {
+
+      .fa-facebook-square {
+        font-size: 28px;
+        color: rgba(59, 89, 152, 1)
+      }
+
+    }
+
+    background: #FFC219;
+    padding: 10px;
+    text-align: center
+  }
+}
+
+
+
+// ---------------------------- warsztaty scss-------------------------
+.hospital-container {
+  p {}
+}
+
+.hospital-head {
+  h2 {
+    font-size: 48px;
+    padding: 20px
+  }
+
+  background: #FFC219;
+  margin-top: 30px;
+}
+
+.hospital-head-stripe {
+
+  &.pink {
+    background: rgba(227, 37, 81, 1);
+  }
+
+  &.orange {
+    background: rgba(240, 124, 25, 1);
+  }
+
+  height: 10px;
+  margin-top: 5px;
+}
+
+.hospital-about {
+  img {
+    height: 400px;
+    width: auto;
+  }
+
+  .hospital-about-text {
+    div {
+      h4 {
+        color: rgba(2, 157, 175, 0.5);
+        margin-bottom: 25px;
+      }
+
+      p {
+        text-align: justify;
+      }
+    }
+  }
+
+  margin-top: 50px;
+}
+
+
+.hospital-aims {
+
+  .hospital-aims-bck {
+    background: rgba(240, 124, 25, 1)
+  }
+
+  .hospital-aims-text {
+    h4 {
+      color: rgba(240, 124, 25, 1);
+      margin-bottom: 25px;
+    }
+
+    li {
+      text-align: justify;
+      padding: 5px;
+    }
+  }
+
+  margin-top: 50px;
+}
+
+.hospital-philosophy {
+  .hospital-philosophy-bck {
+    background: rgba(2, 157, 175, 1)
+  }
+
+  .hospital-philosophy-text {
+    h4 {
+      margin-bottom: 25px;
+    }
+
+    p {
+      text-align: justify;
+    }
+
+    li {
+      text-align: justify;
+      padding: 5px;
+    }
+    padding-right: 40px;
+  }
+}
