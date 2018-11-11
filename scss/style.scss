@@ -7,13 +7,11 @@ header {
 }
 
 header {
-
   .welcome {
     div {
       .title {
         font-size: 30px;
       }
-
       i {
         font-size: 128px;
       }
@@ -23,32 +21,23 @@ header {
     height: 15rem;
     background: #FFC219
   }
-
-  .fa-arrow-right {
-    font-size: 128px;
-  }
-
   .people-item {
     font-size: 50px;
   }
-
   .nav {
+    .nav-item {
+        a {
+          color: black;
+          font-size: 18px
+        }
+        .fab {
+          font-size: 32px;
+        }
+      }
+      height: 50px;
     background: rgba(2, 157, 175, 0.3);
     padding: 5px;
-
   }
-
-  .nav-item {
-    a {
-      color: black;
-      font-size: 18px
-    }
-
-    .fab {
-      font-size: 32px;
-    }
-  }
-
 }
 
 
@@ -66,6 +55,7 @@ main {
       margin-top: 100px;
       text-align: justify;
     }
+    margin-top: 100px;
   }
 
   .activities {
@@ -143,9 +133,7 @@ footer {
 
 
 // ---------------------------- warsztaty scss-------------------------
-.hospital-container {
-  p {}
-}
+
 
 .hospital-head {
   h2 {
@@ -224,15 +212,148 @@ footer {
     h4 {
       margin-bottom: 25px;
     }
-
     p {
       text-align: justify;
+
+      .quote {
+        font-size: 22px;
+        color: rgba(2, 157, 175, 1)
+      }
     }
 
     li {
       text-align: justify;
       padding: 5px;
     }
+
     padding-right: 40px;
   }
+}
+
+//------------strony w budowie------------
+
+.build {
+  .text {
+    p {
+      i {
+        font-size: 80px;
+      }
+    }
+  }
+
+  margin-top: 150px;
+}
+
+//-------------dzialania
+.what {
+  .text {
+    .quote {
+      font-size: 24px;
+    }
+  }
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+//-----------zespol
+.team {
+  h4 {
+    color: gray;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+  margin-bottom: 50px;
+
+}
+
+.team-about-section{
+    .team-about-img{
+        img{
+            height: 300px;
+        }
+        
+    }
+    .team-about-text{
+        margin-top: 50px;
+        text-align: justify;
+    }
+    margin-top:50px;
+}
+
+.team-employees {
+  .team-employees-bck {
+    background: rgba(2, 157, 175, 1)
+  }
+
+  .team-employees-content {
+    .team-employees-content-img {
+      div {
+        img {
+          height: 200px;
+          width: 200px;
+        }
+        p{
+            span{
+                font-size: 16px;
+                text-transform: uppercase;
+            }
+            font-size: 18px;
+            padding: 5px;
+            text-align: justify;
+            
+        
+        }
+        padding: 20px;
+        display: inline-block;
+      }
+    }
+  }
+
+}
+
+.team-volunteers {
+  div {
+    img {
+      height: 200px;
+      width: 200px;
+    }
+  }
+
+  .team-volunteers-bck {
+    background: #FFC219
+  }
+  .team-volunteers-content{
+      .team-volunteers-text{
+        text-align: justify;
+        margin-bottom: 50px;
+      }
+  }
+}
+
+.team-president {
+  img {
+    height: 300px;
+    width: 230px;
+  }
+
+  .team-president-text {
+    .team-president-text-subtitle {
+      font-size: 16px;
+      text-transform: uppercase
+    }
+
+    .name {
+      font-size: 22px;
+      font-weight: 700
+    }
+
+    text-align: justify;
+  }
+  .team-president-bck{
+      background: rgba(227, 37, 81, 1)
+  }
+  margin-bottom: 50px;
 }
