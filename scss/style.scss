@@ -1,5 +1,6 @@
 body {
   font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
 }
 
 header {
@@ -8,33 +9,50 @@ header {
 
 header {
   .welcome {
-    div {
-      .title {
-        font-size: 30px;
+    .welcome-text{
+      background: rgba(255, 255, 255, 0.3);
+      padding: 60px;
+      margin-top: 30px;
+      p{
+        font-family: 'Lobster', cursive;
       }
-      i {
-        font-size: 128px;
+      div {
+        height:2rem;
+      }
+      a {
+        margin-top: 10px;
+        margin-bottom: 50px;
+        background: rgba(2, 157, 175, 1);
+        color: white;
+        padding: 10px;
+        border-radius: 20%;
       }
     }
 
+   
+
     margin-top: 30px;
-    height: 15rem;
+    height: 25rem;
     background: #FFC219
   }
+
   .people-item {
     font-size: 50px;
   }
+
   .nav {
     .nav-item {
-        a {
-          color: black;
-          font-size: 18px
-        }
-        .fab {
-          font-size: 32px;
-        }
+      a {
+        color: black;
+        font-size: 18px
       }
-      height: 50px;
+
+      .fab {
+        font-size: 32px;
+      }
+    }
+
+    height: 50px;
     background: rgba(2, 157, 175, 0.3);
     padding: 5px;
   }
@@ -44,6 +62,7 @@ header {
 
 
 main {
+  
   h4 {
     color: rgba(2, 157, 175, 1)
   }
@@ -55,8 +74,9 @@ main {
       margin-top: 100px;
       text-align: justify;
     }
-    margin-top: 100px;
   }
+
+
 
   .activities {
     img {
@@ -93,6 +113,8 @@ main {
 
     margin-bottom: 100px;
   }
+
+
 
   .slider {
     h4 {
@@ -212,6 +234,7 @@ footer {
     h4 {
       margin-bottom: 25px;
     }
+
     p {
       text-align: justify;
 
@@ -246,6 +269,12 @@ footer {
 
 //-------------dzialania
 .what {
+  div {
+    img {
+      height: 300px;
+    }
+  }
+
   .text {
     .quote {
       font-size: 24px;
@@ -265,22 +294,25 @@ footer {
     font-size: 30px;
     margin-bottom: 40px;
   }
+
   margin-bottom: 50px;
 
 }
 
-.team-about-section{
-    .team-about-img{
-        img{
-            height: 300px;
-        }
-        
+.team-about-section {
+  .team-about-img {
+    img {
+      height: 300px;
     }
-    .team-about-text{
-        margin-top: 50px;
-        text-align: justify;
-    }
-    margin-top:50px;
+
+  }
+
+  .team-about-text {
+    margin-top: 50px;
+    text-align: justify;
+  }
+
+  margin-top:50px;
 }
 
 .team-employees {
@@ -293,19 +325,22 @@ footer {
       div {
         img {
           height: 200px;
-          width: 200px;
+          width: 150px;
         }
-        p{
-            span{
-                font-size: 16px;
-                text-transform: uppercase;
-            }
-            font-size: 18px;
-            padding: 5px;
-            text-align: justify;
-            
-        
+
+        p {
+          span {
+            font-size: 16px;
+            text-transform: uppercase;
+          }
+
+          font-size: 18px;
+          padding: 5px;
+          text-align: justify;
+
+
         }
+
         padding: 20px;
         display: inline-block;
       }
@@ -318,18 +353,19 @@ footer {
   div {
     img {
       height: 200px;
-      width: 200px;
+      width: 150px;
     }
   }
 
   .team-volunteers-bck {
     background: #FFC219
   }
-  .team-volunteers-content{
-      .team-volunteers-text{
-        text-align: justify;
-        margin-bottom: 50px;
-      }
+
+  .team-volunteers-content {
+    .team-volunteers-text {
+      text-align: justify;
+      margin-bottom: 50px;
+    }
   }
 }
 
@@ -352,8 +388,77 @@ footer {
 
     text-align: justify;
   }
-  .team-president-bck{
-      background: rgba(227, 37, 81, 1)
+
+  .team-president-bck {
+    background: rgba(227, 37, 81, 1)
   }
+
   margin-bottom: 50px;
+}
+
+
+//-----------------helpfor
+
+.help-form {
+
+  .help-form-financial,
+  .help-form-material,
+  .help-form-volunteers {
+    div {
+      img {
+        height: 200px;
+        width: 200px;
+      }
+      .help-form-material-actual{
+        background: rgba(255, 194, 25, 0.3);
+      }
+    }
+  
+    margin-top: 50px;
+  }
+}
+
+.wplacam_content {
+  height: 300px;
+}
+
+
+//--------------------kontakt
+
+.contact-email,
+.contact-phonenumber {
+  p {
+    .mail-symbol {
+      font-size: 30px;
+      font-weight: 700px;
+      font-family: Impact;
+    }
+  }
+
+  .text {
+    a {
+      color: #000;
+    }
+
+    .fb,
+    .phone {
+      font-size: 26px
+    }
+  }
+}
+
+.contact-phonenumber {
+  margin-bottom: 50px
+}
+
+
+.contact-email,
+.contact-adress,
+.contact-phonenumber {
+  margin-top: 50px;
+}
+
+.map {
+  width: 300px;
+  margin-top: 100px;
 }
