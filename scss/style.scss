@@ -9,16 +9,29 @@ header {
 
 header {
   .welcome {
-    .welcome-text{
+    div {
+      img {
+        height: 20em;
+        @media (max-width: 768px) {
+          height: 10em;
+          width: auto;
+        }
+      }
+    }
+
+    .welcome-text {
       background: rgba(255, 255, 255, 0.3);
       padding: 60px;
       margin-top: 30px;
-      p{
+
+      p {
         font-family: 'Lobster', cursive;
       }
+
       div {
-        height:2rem;
+        height: 2rem;
       }
+
       a {
         margin-top: 10px;
         margin-bottom: 50px;
@@ -29,10 +42,7 @@ header {
       }
     }
 
-   
-
     margin-top: 30px;
-    height: 25rem;
     background: #FFC219
   }
 
@@ -40,37 +50,37 @@ header {
     font-size: 50px;
   }
 
-  .nav {
-    .nav-item {
+
+.nav{
+  background: rgba(2, 157, 175, 0.3);
+  padding: 5px;
+    .nav-item{
       a {
-        color: black;
-        font-size: 18px
-      }
-
-      .fab {
-        font-size: 32px;
-      }
-    }
-
-    height: 50px;
-    background: rgba(2, 157, 175, 0.3);
-    padding: 5px;
+    color: #000;
+    text-decoration: none;
   }
+  @media (min-width: 768px) {
+    height: 1em;
+  }
+}}
+
+
 }
 
 
 
 
 main {
-  
+
   h4 {
     color: rgba(2, 157, 175, 1)
   }
 
   .about {
-    height: 400px;
 
     .text {
+      margin-left: 20px;
+      margin-right: 20px;
       margin-top: 100px;
       text-align: justify;
     }
@@ -186,7 +196,6 @@ footer {
     height: 400px;
     width: auto;
   }
-
   .hospital-about-text {
     div {
       h4 {
@@ -199,7 +208,8 @@ footer {
       }
     }
   }
-
+  margin-left: 20px;
+  margin-right: 20px;
   margin-top: 50px;
 }
 
@@ -409,11 +419,12 @@ footer {
         height: 200px;
         width: 200px;
       }
-      .help-form-material-actual{
+
+      .help-form-material-actual {
         background: rgba(255, 194, 25, 0.3);
       }
     }
-  
+
     margin-top: 50px;
   }
 }
