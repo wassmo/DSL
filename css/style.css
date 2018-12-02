@@ -7,8 +7,13 @@ header {
 
 header .welcome {
   margin-top: 30px;
-  height: 25rem;
   background: #FFC219; }
+  header .welcome div img {
+    height: 20em; }
+    @media (max-width: 768px) {
+      header .welcome div img {
+        height: 10em;
+        width: auto; } }
   header .welcome .welcome-text {
     background: rgba(255, 255, 255, 0.3);
     padding: 60px;
@@ -29,23 +34,23 @@ header .people-item {
   font-size: 50px; }
 
 header .nav {
-  height: 50px;
   background: rgba(2, 157, 175, 0.3);
   padding: 5px; }
   header .nav .nav-item a {
-    color: black;
-    font-size: 18px; }
-  header .nav .nav-item .fab {
-    font-size: 32px; }
+    color: #000;
+    text-decoration: none; }
+  @media (min-width: 768px) {
+    header .nav .nav-item {
+      height: 1em; } }
 
 main h4 {
   color: #029daf; }
 
-main .about {
-  height: 400px; }
-  main .about .text {
-    margin-top: 100px;
-    text-align: justify; }
+main .about .text {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 100px;
+  text-align: justify; }
 
 main .activities {
   margin-bottom: 150px; }
@@ -103,6 +108,8 @@ footer div {
     background: #f07c19; }
 
 .hospital-about {
+  margin-left: 20px;
+  margin-right: 20px;
   margin-top: 50px; }
   .hospital-about img {
     height: 400px;
